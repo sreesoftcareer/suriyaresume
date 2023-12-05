@@ -1,0 +1,133 @@
+.navbar{
+height: 80px;
+}
+.navbar-brand img{
+height: 70px;
+width: 100%;
+
+}
+.collapse {
+    justify-content: flex-end;
+
+}
+.nav-link{
+    color: white;
+    margin: 0 10px 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-link:hover{
+    color:  rgb(250, 95, 95);
+    border-bottom: 1px solid rgb(83, 83, 232);
+}
+/*hero sectio*/
+.hero img{
+    height: 500px;
+}
+.herotext{
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    margin-top: 200px;
+    color: rgb(12, 239, 239);
+    text-align: center;
+    display: inline-block;
+}
+
+.herotext .text {
+    margin: 10px 0;
+
+    letter-spacing: 2px;
+    font-size: 49px;
+    font-weight: 800;
+    position: relative;
+
+}
+.first-text{
+    color: white;
+    
+}
+
+/*about section*/
+.about{
+    background: #212529;
+    color: white;
+    height: 540px;
+}
+.about h2 ,.skillsheading h2{
+    color:  rgb(250, 95, 95);
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-size: 38px;
+}
+.about h2,.skillsheading h2 ,.contact h2:hover{
+    border-bottom: 1px solid rgb(83, 83, 232);
+
+}
+
+.aboutimg img{
+    padding: 10px 0px 0 10px;
+    margin: 10px 0 0 170px;
+    width: 40%;
+    border-left: 3px solid  rgb(255, 0, 0);
+    border-top: 3px solid  rgb(255, 0, 0);
+}
+.abouttext p{
+letter-spacing: 2px;
+}
+.aboutheading{
+    color:  rgb(250, 95, 95);
+    font-weight: 700;
+
+}
+.aboutsubh h4{
+    color:  rgb(250, 95, 95);
+    font-weight: 500;
+}
+.aboutsubh1 h4{
+    color:  rgb(250, 95, 95);
+    font-weight: 500;
+}
+.aboutsubh1{
+    padding: 0 0 0 150px;
+}
+.skillssection {
+    background-color: rgb(45, 43, 43);
+    color: white;
+    height: 600px;
+
+}
+.contact{
+    background: rgb(250, 95, 95);
+    color: white;
+    height: 300px;
+}
+.contact h2{
+    color:   white;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-size: 38px;
+}
+/*responsive*/
+
+@media screen and (max-width:992px) {
+    .about{
+        height: 670px;
+        text-align: center;
+        
+    }
+}
+@media screen and (max-width:770px) {
+    .about{
+        height: 950px;
+        text-align: center;
+    }
+    .hero img{
+        height: 600px;
+    }
+    .skillssection {
+        height:500px ;
+    }
+    
+    
+}
